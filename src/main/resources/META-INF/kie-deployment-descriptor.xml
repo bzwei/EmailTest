@@ -11,39 +11,39 @@
     <globals/>
     <work-item-handlers>
         <work-item-handler>
-            <resolver>mvel</resolver>
+            <resolver>spring</resolver>
             <identifier>org.jbpm.process.workitem.email.EmailWorkItemHandler</identifier>
             <parameters>
                 <parameter xsi:type="objectModel">
-                    <resolver>mvel</resolver>
+                    <resolver>spring</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">smtp.gmail.com</parameter>
                     </parameters>
                 </parameter>
                 <parameter xsi:type="objectModel">
-                    <resolver>mvel</resolver>
+                    <resolver>spring</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">587</parameter>
                     </parameters>
                 </parameter>
                 <parameter xsi:type="objectModel">
-                    <resolver>mvel</resolver>
+                    <resolver>spring</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">billwei.sfs</parameter>
                     </parameters>
                 </parameter>
                 <parameter xsi:type="objectModel">
-                    <resolver>mvel</resolver>
+                    <resolver>spring</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">1040vts</parameter>
                     </parameters>
                 </parameter>
                 <parameter xsi:type="objectModel">
-                    <resolver>mvel</resolver>
+                    <resolver>spring</resolver>
                     <identifier>boolean</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">true</parameter>
