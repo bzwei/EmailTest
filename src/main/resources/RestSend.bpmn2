@@ -145,6 +145,7 @@ if (kcontext.getVariable("HelloResult") != null) {
   kcontext.setVariable("HelloResultType", kcontext.getVariable("HelloResult").getClass().getName());
 }
 if (kcontext.getVariable("inputDate") != null) {
+  // a comment
   kcontext.setVariable("InputDateType", kcontext.getVariable("inputDate").getClass().getName());
 }]]></bpmn2:script>
     </bpmn2:scriptTask>
