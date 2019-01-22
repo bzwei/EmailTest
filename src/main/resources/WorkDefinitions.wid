@@ -47,6 +47,7 @@
         "ConnectTimeout" : new StringDataType(),
         "ReadTimeout" : new StringDataType(),
         "Username" : new StringDataType(),
+        "Headers" : new StringDataType(),
         "Password" : new StringDataType()
     ],
     "results" : [
